@@ -2,10 +2,10 @@
 
 int main(){
 
-int a;
+int a,b;
 	printf("scanf an int\n");
-	scanf("%d",&a);
-		printf("the int is %d", a);
+	scanf("%d %d",&a,&b);
+		printf("the int is %d %d", a,b);
 
 return 0;
 
